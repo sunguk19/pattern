@@ -14,12 +14,12 @@ x_train = np.load("x_train_79.npy")
 x_test = np.load("x_test_79.npy")
 y_train = np.load("y_train_79.npy")
 y_test = np.load("y_test_79.npy")
-x_train = x_train.reshape(2687, 79, 95, 68, 1) #1 is channel
-x_test = x_test.reshape(1322, 79, 95, 68, 1) #1 is channel
+x_train = x_train.reshape(2687, 79, 95, 68, 1)  #1 is channel
+x_test = x_test.reshape(1322, 79, 95, 68, 1)    #1 is channel
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
 y_train = y_train[:,1:6]	#1:6 for 1~5 emotional state
-y_test = y_test[:,1:6]	#1:6 for 1~5 emotional state
+y_test = y_test[:,1:6]	  #1:6 for 1~5 emotional state
 
 model = Sequential()
 # input: 79x95x68 images tensors.
