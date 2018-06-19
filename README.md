@@ -2,7 +2,7 @@
 Pattern Recognition final report
 
 # setting for this project
-install tenserflow and keras
+install tensorflow and keras
 
 # how to use this code
 
