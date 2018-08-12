@@ -1,4 +1,4 @@
-# pattern
+# pattern 3D CNN fMRI
 Pattern Recognition final report
 
 # setting for this project
